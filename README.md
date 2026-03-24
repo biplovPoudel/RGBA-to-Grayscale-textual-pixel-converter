@@ -27,3 +27,27 @@ A comma-separated text file. The first line contains the image dimensions (width
 0,1,0,255,0,255
 1,0,0,0,255,255
 1,1,255,255,255,255
+```
+### Output Format (GREY.txt)
+A corresponding text file where the distinct RGB values are replaced by the calculated grey value.
+``` text
+2,2
+0,0,76.245,76.245,76.245,255
+0,1,149.685,149.685,149.685,255
+1,0,29.070,29.070,29.070,255
+1,1,255.000,255.000,255.000,255
+```
+### 🛠️ Compilation & Usage
+This program is designed to be compiled using GCC in a Linux environment.
+
+1. Compile the source code:
+   ```
+   g++ -std=c++17 -o POUDEL_BIPLOV_CSCI4065_ASSIGN01 POUDEL_BIPLOV_CSCI4065_ASSIGN01.cpp
+   ```
+2. Execute the program:
+Provide the input file name as the first argument, and the desired output file name as the second argument.
+```
+./POUDEL_BIPLOV_CSCI4065_ASSIGN01 RGBA.txt GREY.txt
+```
+### 👨‍💻 Author
+Biplov Poudel Computer Science at the University of Louisiana at Monroe (ULM)
